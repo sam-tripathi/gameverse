@@ -1,0 +1,88 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cointainer-fluid{
+    display: flex;
+}
+
+.left-cointaint{
+    width: 50%;
+}
+
+.left-top-cointaint{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.left-top-cointaint span{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: bold;
+    color: #eb2632;
+}
+
+.left-bottom-cointaint{
+    position: absolute;
+    bottom: 30px;
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 12px;
+    color: rgb(80, 79, 79);
+}
+
+.right-cointaint{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.right-cointaint input, textarea{
+    width: 80%;
+    padding: 10px;
+    margin-right: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #999;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    text-transform: uppercase;
+}
+
+.right-cointaint input[type=text]{
+    text-transform: uppercase;
+}
+
+.btn{
+   padding:px
+    display: flex;
+    /* position ; */
+    right: 50px;
+    bottom: 50px;
+}
+
+.btn button{
+    background: none;
+    border: none;
+    outline: none;
+    padding-right: 20px;
+    cursor: pointer;
+    color: #eb2632;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
